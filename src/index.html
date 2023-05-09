@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="js/script.js" defer></script>
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+  <body>
+    <div id="scoring"
+      class="block mt-38.5 w-81.75 mx-auto rounded-box bg-gradient-to-b from-black-a to-black-b h-90 p-6 md:mt-48.75 md:w-103 md:h-auto md:p-8"
+    >
+      <div class="bg-dark-blue w-10 h-10 rounded-full flex md:w-12 md:h-12 ">
+        <img src="../images/icon-star.svg" alt="" class="m-auto" />
+      </div>
+      <div class="font-overpass mt-4 font-bold text-2xl h-7.5 md:mt-7.5">
+        How did we do?
+      </div>
+      <div class="font-overpass text-p text-dark-grey mt-4.25 md:mt-3.5 md:text-mid">
+        Please let us know how we did with your support request. All feedback is
+        appreciated to help us improve our offering!
+      </div>
+      <div id="scores" class="flex justify-between mt-6 ">
+        <div id="sel0"
+          class="bg-dark-blue w-10 h-10 rounded-full flex justify-center text-medium-grey text-bt font-overpass pt-h font-bold hover:bg-medium-grey hover:text-white md:text-cl"
+        >
+          1
+        </div>
+        <div id="sel1"
+          class="bg-dark-blue w-10 h-10 rounded-full flex justify-center text-medium-grey text-bt font-overpass pt-h font-bold hover:bg-medium-grey hover:text-white md:text-cl"
+        >
+          2
+        </div>
+        <div id="sel2"
+          class="bg-dark-blue w-10 h-10 rounded-full flex justify-center text-medium-grey text-bt font-overpass pt-h font-bold hover:bg-medium-grey hover:text-white md:text-cl"
+        >
+          3
+        </div>
+        <div id="sel3"
+          class="bg-dark-blue w-10 h-10 rounded-full flex justify-center text-medium-grey text-bt font-overpass pt-h font-bold hover:bg-medium-grey hover:text-white md:text-cl"
+        >
+          4
+        </div>
+        <div id="sel4"
+          class="bg-dark-blue w-10 h-10 rounded-full flex justify-center text-medium-grey text-bt font-overpass pt-h font-bold hover:bg-medium-grey hover:text-white md:text-cl"
+        >
+          5
+        </div>
+      </div>
+      <button id="button" type="button" class="bg-orange rounded-full w-full h-bt mt-6 md:text-btn md:mt-8">
+        Submit
+      </button>
+    </div>
+
+    <div id="thanks"
+      class="hidden mt-38.5 w-81.75 m-auto rounded-box bg-gradient-to-b from-black-a to-black-b h-90 p-6 md:mt-48.75 md:w-103 md:h-auto md:py-lg md:px-8"
+    >
+      <img
+        src="../images/illustration-thank-you.svg"
+        alt=""
+        class="mx-auto  md:w-40.5 md:h-27 "
+      />
+      <div
+        class="text-orange font-overpass w-42 bg-dark-blue text-sel flex justify-center items-center mx-auto h-8 rounded-full mt-6 md:mt-8 md:text-mid"
+      >
+        You selected&nbsp;<span id="rating">0</span>&nbsp;out of 5
+      </div>
+      <div class="text-center font-overpass text-2xl font-bold mt-6 md:mt-8 md:text-lg-bold">Thank you!</div>
+      <div class="text-center font-overpass text-p mt-4.25 text-dark-grey md:mt-pg md:text-mid">
+        We appreciate you taking the time to give a rating. If you ever need
+        more support, don&apos;t hesitate to get in touch!
+      </div>
+    </div>
+  </body>
+</html>
