@@ -647,10 +647,6 @@ video {
   padding-top: 9.29px;
 }
 
-.pt-ty {
-  padding-top: 34px;
-}
-
 .text-center {
   text-align: center;
 }
@@ -746,18 +742,6 @@ video {
     margin-top: 2rem;
   }
 
-  .md\:mt-2 {
-    margin-top: 0.5rem;
-  }
-
-  .md\:mt-2\.5 {
-    margin-top: 0.625rem;
-  }
-
-  .md\:mt-4 {
-    margin-top: 1rem;
-  }
-
   .md\:h-12 {
     height: 3rem;
   }
@@ -786,36 +770,14 @@ video {
     padding: 2rem;
   }
 
-  .md\:py-lg {
-    padding-top: 45px;
-    padding-bottom: 45px;
-  }
-
-  .md\:py-ty {
-    padding-top: 34px;
-    padding-bottom: 34px;
-  }
-
-  .md\:px-0 {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
   .md\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
   }
 
-  .md\:pt-lg {
+  .md\:py-lg {
     padding-top: 45px;
-  }
-
-  .md\:pt-0 {
-    padding-top: 0px;
-  }
-
-  .md\:pt-ty {
-    padding-top: 34px;
+    padding-bottom: 45px;
   }
 
   .md\:text-btn {
@@ -828,13 +790,13 @@ video {
     line-height: 24px;
   }
 
-  .md\:text-mid {
-    font-size: 15px;
-    line-height: 24px;
-  }
-
   .md\:text-lg-bold {
     font-size: 28px;
     line-height: 35px;
+  }
+
+  .md\:text-mid {
+    font-size: 15px;
+    line-height: 24px;
   }
 }
