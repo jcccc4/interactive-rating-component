@@ -722,6 +722,11 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.hover\:text-orange:hover {
+  --tw-text-opacity: 1;
+  color: rgb(252 118 20 / var(--tw-text-opacity));
+}
+
 @media (min-width: 768px) {
   .md\:mt-3 {
     margin-top: 0.75rem;
